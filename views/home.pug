@@ -1,0 +1,45 @@
+extends base.pug
+
+block scripts   
+    script(src="/static/index.js")
+
+block style 
+    style 
+        include ../static/style.css 
+
+block content
+    section#introSection 
+        div Welcome to Ansh's Dance Acadmey 
+        div.small Eat Sleep Dance Repeat
+    section#missionSection 
+        h2 Our Mission
+        .card 
+            h3 Dance Perfection
+            .card-box 
+                .card-img 
+                    img(src="/static/img1.jfif", alt="ERROR")
+                .card-content 
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, beatae.
+        .card 
+            h3 Dance the way you like
+            .card-box 
+                .card-img 
+                    img(src="/static/img1.jfif", alt="ERROR")
+                .card-content 
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, beatae.
+        .card 
+            h3 Expert Teaching
+            .card-box 
+                .card-img 
+                    img(src="/static/img1.jfif", alt="ERROR")
+                .card-content 
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, beatae.
+    section#sponserSection 
+        h2 Our sponsers
+        #sponsers 
+            img(src="/static/apple.jfif", alt="ERROR" class="spimg")
+            img(src="/static/microsoft.jfif", alt="ERROR" class="spimg")
+            img(src="/static/hp.jfif", alt="ERROR" class="spimg")
+            img(src="/static/dell.jfif", alt="ERROR" class="spimg")
+
+            

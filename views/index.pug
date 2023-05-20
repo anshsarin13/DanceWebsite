@@ -1,0 +1,62 @@
+doctype html 
+html 
+    head 
+        title Ansh Dance Acadmey
+        style 
+            include ../static/style.css 
+    body 
+        nav#navbar.nav 
+            ul
+                #logo 
+                    img(src="/static/logo.jfif", alt="ERROR")
+                    | HDA
+                li #[a(href="/") Home] 
+                li #[a(href="/") About ] 
+                li #[a(href="/") Services ] 
+                li #[a(href="/") Contact Us ]  
+                li #[a(href="/") Class Info ] 
+
+        section#introSection 
+            div Welcome to Ansh's Dance Acadmey 
+            div.small Eat Sleep Dance Repeat
+        section#missionSection 
+            h2 Our Mission
+            .card 
+                h3 Dance Perfection
+                .card-box 
+                    .card-img 
+                        img(src="/static/img1.jfif", alt="ERROR")
+                    .card-content 
+                        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, beatae.
+            .card 
+                h3 Dance the way you like
+                .card-box 
+                    .card-img 
+                        img(src="/static/img1.jfif", alt="ERROR")
+                    .card-content 
+                        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, beatae.
+            .card 
+                h3 Expert Teaching
+                .card-box 
+                    .card-img 
+                        img(src="/static/img1.jfif", alt="ERROR")
+                    .card-content 
+                        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, beatae.
+        section#sponserSection 
+            h2 Our sponsers
+            #sponsers 
+                img(src="/static/apple.jfif", alt="ERROR" class="spimg")
+                img(src="/static/microsoft.jfif", alt="ERROR" class="spimg")
+                img(src="/static/hp.jfif", alt="ERROR" class="spimg")
+                img(src="/static/dell.jfif", alt="ERROR" class="spimg")
+        footer#footer 
+            | copyright 2023 AnshDanceacadmey.com |All rights reserved
+
+    
+
+
+        script 
+            include ../static/index.js
+
+
+
